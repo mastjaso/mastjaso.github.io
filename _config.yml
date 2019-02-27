@@ -5,17 +5,17 @@ permalink:           pretty
 exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md]
 unpublished:         true
 show_drafts:         false
-title:               Down to the Wire
-tagline:             Elements of LabVIEW
-description:         'A blog by <a href="https://twitter.com/JoeFriedrichsen" target="_blank">@JoeFriedrichsen</a>.'
-url:                 http://downtothewire.io
+title:               masterspace
+tagline:             
+description:         'A blog by Jason Masters.'
+url:                 http://masterspace.run
 baseurl:             ''
 
 # About/contact
 author:
-  name:              Joe Friedrichsen
-  url:               https://twitter.com/JoeFriedrichsen
-  email:             all.wired.down@gmail.com
+  name:              Jason Masters
+  url:               masterspace.run
+  email:             jason@masterspace.run
 
 # Custom data
 established:         2014
