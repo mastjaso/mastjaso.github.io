@@ -10,6 +10,7 @@ tagline:
 description:         'A blog by Jason Masters.'
 url:                 http://masterspace.run
 baseurl:             ''
+paginate:            5
 
 # About/contact
 author:
