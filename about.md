@@ -4,7 +4,8 @@ title: About
 published: true
 ---
 
-It's not what we make, it's what we make possible.
+Hey, miss doesn't-find-me- attractive-sexually-anymore,
+I just tripled my productivity.
 
 ## Focus
 
