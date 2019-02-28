@@ -11,7 +11,7 @@ published: true
 
 * Software Development For The AEC Industry
 * BIM Tools, Web Development, .NET Development
-* Circuit design and debugging with VirtualBench
+* Electrical, Communications, & Lighting Design
 
 ## Elsewhere
 
