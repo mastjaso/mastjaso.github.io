@@ -1,5 +1,5 @@
 ---
-layout: all
+layout: page
 title: All
 published: true
 ---
