@@ -1,6 +1,6 @@
 ---
 layout: all
-title: All Posts
+title: All
 published: true
 ---
 
