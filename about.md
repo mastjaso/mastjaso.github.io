@@ -4,8 +4,10 @@ title: About
 published: true
 ---
 
-Hey, miss doesn't-find-me- attractive-sexually-anymore,
+Hey, miss doesn't-find-me- attractive-sexually-anymore,  
 I just tripled my productivity.
+
+
 
 ## Focus
 
