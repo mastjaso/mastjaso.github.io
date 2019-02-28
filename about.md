@@ -1,22 +1,22 @@
 ---
 layout: page
 title: About
+published: true
 ---
 
 It's not what we make, it's what we make possible.
 
 ## Focus
 
-* Application programming in LabVIEW
-* Interaction and visual design
+* Software Development For The AEC Industry
+* BIM Tools, Web Development, .NET Development
 * Circuit design and debugging with VirtualBench
 
 ## Elsewhere
 
-* [Twitter](https://twitter.com/wireddown)
-* [GitHub](https://github.com/wireddown)
-* [Stack Overflow](http://stackoverflow.com/users/616838/joe-friedrichsen)
-* [Trello](https://trello.com/wireddown)
+* [GitHub](https://github.com/mastjaso)
+* [Stack Overflow](https://stackoverflow.com/users/8333865/jason-masters)
+
 
 ## Colophon
 
@@ -25,4 +25,4 @@ It's not what we make, it's what we make possible.
 * Tags: [Lanyon with tags](https://github.com/wireddown/wireddown.github.io/tree/feature_tags)
 * Comments: [ghpages-ghcomments](https://github.com/wireddown/ghpages-ghcomments)
 * Storage: [GitHub](https://github.com/wireddown/wireddown.github.io)
-* Domain Registrar: [gandi.net](http://www.gandi.net/)
+* Domain Registrar: [easydns.com](http://www.easydns.com/)
