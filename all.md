@@ -1,7 +1,7 @@
 ---
 layout: page
 published: true
-title: All
+title: Archive
 ---
 
 {% include post_archive.html %}
