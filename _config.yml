@@ -22,3 +22,7 @@ author:
 established:         2018
 license:             CC BY 4.0
 license_url:         http://creativecommons.org/licenses/by/4.0/legalcode
+
+# Plugins
+plugins:
+  - jekyll-feed
