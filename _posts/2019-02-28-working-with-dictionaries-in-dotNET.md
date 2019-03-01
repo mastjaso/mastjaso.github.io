@@ -11,19 +11,19 @@ tags:
   - Development
 ---
 
-Lately I've been trying to write higher performance code by trying to make better use of Dictionaries and HashSets in C#. I've always known that they're a little slower to write to, and much faster to read from, but I didn't quite grasp the sheer performance gape until I was doing some research on HashSets and came across this StackOverflow post:
-https://stackoverflow.com/a/10348367/8333865
+Lately I've been trying to write higher performance code by trying to make better use of Dictionaries and HashSets in C#. I've always known that they're a little slower to write to, and much faster to read from, but I didn't quite grasp the sheer performance gape until I was doing some research on HashSets and came across [this StackOverflow post](https://stackoverflow.com/a/10348367/8333865).
+
 
 
 The main takeaways can probably be pretty immediately gleaned from these three graphs:
 **Add 1000000 objects (without checking duplicates):**
-![Add Tests]({{site.baseurl}}/https://i.stack.imgur.com/BPz30.png)
+![Add Tests](https://i.stack.imgur.com/BPz30.png)
 
 **Contains check for half the objects of a collection of 10000:**
-![Contains Tests]({{site.baseurl}}/https://i.stack.imgur.com/g8NTg.png)
+![Contains Tests](https://i.stack.imgur.com/g8NTg.png)
 
 **Remove half the objects of a collection of 10000:**
-![Add Tests]({{site.baseurl}}/https://i.stack.imgur.com/MorzW.png)
+![Add Tests](https://i.stack.imgur.com/MorzW.png)
 
 With the above contains tests you can't even really tell just how much faster the dicionary is because it's below the margin of error. 
 
