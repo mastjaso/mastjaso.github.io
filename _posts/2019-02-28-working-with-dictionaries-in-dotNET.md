@@ -25,13 +25,11 @@ The main takeaways can probably be pretty immediately gleaned from these three g
 **Remove half the objects of a collection of 10000:**
 ![Add Tests](https://i.stack.imgur.com/MorzW.png)
 
-With the above contains tests you can't even really tell just how much faster the dicionary is because it's below the margin of error. 
+With the above ContainsKey and Remove tests you can't even tell just how much faster the dicionary is because it's response time is below the margin of error. 
 
-That being said, I often find Dictionaries cumbersome to work with in C#, I feel like they often clog up your code, making it more difficult to read, and they're more difficult to use as quickly as say, lists, especially once you've started adjusting to LINQ. 
+That being said, I often find Dictionaries cumbersome to work with in C#, I feel like they often clog up your code, and they're more difficult to use then my go to List<>, especially once you've started adjusting to LINQ. 
 
-As an added wrinkle, if you're interfacing with software like Revit through an API, there are many instances where you may want to gather, process, and index a bunch of information from the model when your application launches so that you can then very quickly query and look it up again throughout the rest of execution, especially if you have to deal with synchronizing data between Revit and an external database.
-
-So to create some of these indexed models that are convenient for extremely rapid lookup, I started writing some extension methods to make dealing with dictionaries and converting between collections and dictionaries a little easier.
+So to make dictionaries a little more convenient, I started looking for some extension methods to make them a little more like collections and to make converting between collections and dictionaries a little easier. That's when I came across a SO post which I can't find anymore that essentially just used LINQ to pass a function that would be applied to a collection and I was inspired to create some of my own.
 
 The first is **AddByKey**. This comes in handy if you've got any kind of enumerable collection of objects, and you want to add all of them to a dictionary, maybe using a uniqueID property as they key or something like that. Lists have the handy AddRange() function but there's no equivalent for dictionaries, and it would seem difficult since how would you pass in the key? 
 
