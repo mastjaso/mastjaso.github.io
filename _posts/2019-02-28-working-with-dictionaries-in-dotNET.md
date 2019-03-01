@@ -44,7 +44,7 @@ Well LINQ saves the day by taking your collection of objects as an argument, and
     
 Which in my mind is a super clear, and readable way of specifying what function you want applied to  each item in the list to be added. But this is what the extension method looks like:    
 
-   public static void AddByKey<TKey, TValue>(this Dictionary<TKey, TValue> dict, IEnumerable<TValue> targets, Expression<Func<TValue, TKey>> propertyToAdd)
+    public static void AddByKey<TKey, TValue>(this Dictionary<TKey, TValue> dict, 	IEnumerable<TValue> targets, Expression<Func<TValue, TKey>> propertyToAdd)
           {
               MemberExpression expr = (MemberExpression)propertyToAdd.Body;
               PropertyInfo prop = (PropertyInfo)expr.Member;
@@ -67,7 +67,7 @@ So I made an extension method for any IEnumerable that will convert it to a dict
   
 And that's it, not your collection is in a dictionary based on whatever transformations you want to apply to each item through LINQ. This is the code of the extension method:
 
-  public static Dictionary<TKey, TValue> ToDictionaryByFunctions<TKey, TValue, TListItem>(this IEnumerable<TListItem> inList, Expression<Func<TListItem, TKey>> keyToAdd,
+    public static Dictionary<TKey, TValue> ToDictionaryByFunctions<TKey, TValue, TListItem>(this IEnumerable<TListItem> inList, Expression<Func<TListItem, TKey>> keyToAdd,
               Expression<Func<TListItem, TValue>> valueToAdd)
           {
               var outDict = new Dictionary<TKey, TValue>();
