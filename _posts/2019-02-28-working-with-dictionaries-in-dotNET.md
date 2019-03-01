@@ -1,5 +1,14 @@
 ---
 published: false
+layout: post
+tags:
+  - .NET
+  - Dictionary
+  - Revit
+  - IEnumerable
+  - ICollection
+  - List
+  - Development
 ---
 
 Lately I've been trying to write higher performance code by trying to make better use of Dictionaries and HashSets in C#. I've always known that they're a little slower to write to, and much faster to read from, but I didn't quite grasp the sheer performance gape until I was doing some research on HashSets and came across this StackOverflow post:
@@ -79,5 +88,3 @@ And that's it, not your collection is in a dictionary based on whatever transfor
               }
               return outDict;
           }
-  
-  
